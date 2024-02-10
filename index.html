@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .playground {
+        width: 550px;
+        height: 550px;
+        position: relative;
+        background-color: black;
+        float: left;
+      }
+      .dainasor {
+        position: relative;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="playground">
+      <img src="ddd.jpg" class="dainasor" id="dainasor" onclick="hitcount()" />
+    </div>
+    <div>
+      <h3 id="gamestatus"></h3>
+      <h1><span>Total</span><span id="hittotal"></span></h1>
+    </div>
+    <button onclick="GameStart()">GameStart</button>
+    <script src="script.js"></script>
+  </body>
+</html>
